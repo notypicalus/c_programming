@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main()
 {
-    printf("A program print Fahrenheit-Celsius\n");
+    printf("A program prints Fahrenheit-Celsius\n");
     int lower,upper,step;
     int celsius,fahr;
 
@@ -12,7 +12,8 @@ int main()
     step = 20;
 
     fahr = lower;
-
+    
+    printf("화씨\t 섭씨\n");
     while(fahr <= upper)
     {
 	celsius = 5 * (fahr - 32) / 9;
