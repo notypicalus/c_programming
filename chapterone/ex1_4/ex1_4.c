@@ -15,7 +15,7 @@ int main()
     printf("화씨\t 섭씨\n");
     while(fahr <= upper)
     {
-	celsius = 5 * (fahr-32) /9;
+	celsius = (5.0 / 9.0) * (fahr-32.0);
 	printf("%f\t%f\n", fahr, celsius);
 	fahr = fahr + step;
     }
