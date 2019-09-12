@@ -4,7 +4,7 @@ I study C everyday step by step with patience, passion!
 
 # Chapter 1. A Tutorial Introduction
 ## 1.1 Getting Started 
-### Hello World: Very first program
+### ex1_1 Hello World: Very first program
 ```c
 #include <stdio.h>
 int main(void)
@@ -20,12 +20,14 @@ printf("hello, world");
 - 어떻게 디렉토리 분류, 커밋 메시지 남기는 지 
 
 ## 1.2 Variables and Arithmetic Expressions
-### Fahrenheit to °C
+### ex1_3 Modify the temperature conversion program to print a heading above the table 
 
 - Main point: int, float, 
-- 계산한 값을 어떻게 프린트할 수 있는지: %d, %f 
+- 계산한 값을 어떻게 프린트할 수 있는지: %d, %f
 
-### 두 가지 방법으로 배운 화씨에서 섭씨로 변환 프로그램
+### ex1_4 Write a program to print the corresponding Celsius to Fahrenheit table  
+
+### 두 가지 방법으로 배운 화씨에서 섭씨로 변환 프로그램 Fahrenheit to °C
 #### 첫 번째: 
 ```c
 int main()
@@ -51,7 +53,7 @@ int main()
 }
 ```
 
-### 두 번째:
+#### 두 번째:
 
 ```c
 int main()
@@ -76,5 +78,8 @@ int main()
   }
 }
 ```
+
+## 1.3 The For Statement
+### ex1_5 Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0
 
 :sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles:
