@@ -18,6 +18,9 @@ printf("hello, world");
 - 프로그램이 실행되기 위해서는 main이 필요하다
 - 프로그램 컴파일: Makefile 
 - 어떻게 디렉토리 분류, 커밋 메시지 남기는 지 
+- 커밋은 하나씩만! (한 커밋에는 하나의 내용만) https://github.com/notypicalus/c_programming/commit/1626848c392cafec0cc341908f85d3cab6b5f589
+- Syntax 익숙해지기: Linux Kernel Coding Style 
+https://www.kernel.org/doc/html/v4.10/process/coding-style.html?fbclid=IwAR2ob1ConygIGPMiyl-JcXsEf4DLp1lfmYpJh-9tBmH8cF64qBDNqnzpGko
 
 ## 1.2 Variables and Arithmetic Expressions
 ### ex1_3 Modify the temperature conversion program to print a heading above the table 
