@@ -87,7 +87,48 @@ int main()
 
 ## 1.4 Symbolic Constants
 ## 1.5 Character Input and Output
+<여기서 배운 것>
+- getchar & putchar function 차이점
+- buffer
 ### 1.5.1 File Copying
+"The simplest example is a program that copies its input to its output one character at a time"
+
+read a character
+while (character is not end-of-file indicator)
+    output the character just read
+    read a character 
+
+1st version:
+
+```c
+int main()
+{
+    int c;
+
+    c = getchar();
+    while (c != EOF)
+    {
+	putchar(c);
+	c = getchar();
+    }
+}
+```
+2nd version: 
+
+```c
+int main()
+{
+    int c;
+
+    while ((c = getchar()) != EOF)
+	putchar(c);
+}
+```
+
+<여기서 배운 것>
+- datatype char & int: 왜char를 사용하지 않고 int를 사용 했는 지
+- EOF (end of file)
+
 #### ex1_6 Verify that the expression getchar() != EOF is 0 or 1.
 #### ex1_7 Write a program to print the value of EOF.
 ### 1.5.2 Character Counting
