@@ -85,4 +85,11 @@ int main()
 ## 1.3 The For Statement
 ### ex1_5 Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0
 
+## 1.4 Symbolic Constants
+## 1.5 Character Input and Output
+### 1.5.1 File Copying
+#### ex1_6 Verify that the expression getchar() != EOF is 0 or 1.
+#### ex1_7 Write a program to print the value of EOF.
+### 1.5.2 Character Counting
+
 :sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles:
