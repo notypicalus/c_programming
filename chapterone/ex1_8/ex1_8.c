@@ -1,11 +1,16 @@
 #include <stdio.h>
 
 int main(){
-    int c, nl, nw, nc, state;
+    int c, nl, nt, ns;
 
-    nl = nw = nc = 0;
-    while ((c = getchar()) != EOF)
+    nl = nt = ns = 0;
+    while ((c = getchar() != EOF)){
 	if (c == '\n')
 	    ++nl;
-    printf("%d\n", nl);
+	if (c == '\t')
+	    ++nt;
+	if (c == ' ')
+	    ++ns;
+    }
+    printf("Blanks: %d\nTabs: %d\nNewlines: %d\n", ns, nt, nl);
 }
