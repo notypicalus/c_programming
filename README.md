@@ -129,8 +129,35 @@ int main()
 - datatype char & int: 왜char를 사용하지 않고 int를 사용 했는 지
 - EOF (end of file)
 
+### 1.5.2 Character Counting
+
+1st version:
+```c
+int main()
+{
+    long nc;
+
+    nc = 0;
+    while (getchar() != EOF)
+	++nc;
+    printf("%ld\n", nc);
+}
+```
+
+2nd version:
+```c
+int main()
+{
+    double nc;
+    for (nc = 0; getchar() != EOF; ++nc)
+	;
+    printf("%.0f\n", nc);
+}
+```
 #### ex1_6 Verify that the expression getchar() != EOF is 0 or 1.
 #### ex1_7 Write a program to print the value of EOF.
-### 1.5.2 Character Counting
+
+### 1.5.3 Line Counting
+### 1.5.4 Word Counting
 
 :sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles:
