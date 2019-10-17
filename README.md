@@ -129,6 +129,9 @@ int main()
 - datatype char & int: 왜char를 사용하지 않고 int를 사용 했는 지
 - EOF (end of file)
 
+#### ex1_6 Verify that the expression getchar() != EOF is 0 or 1.
+#### ex1_7 Write a program to print the value of EOF.
+
 ### 1.5.2 Character Counting
 
 1st version:
@@ -154,10 +157,35 @@ int main()
     printf("%.0f\n", nc);
 }
 ```
-#### ex1_6 Verify that the expression getchar() != EOF is 0 or 1.
-#### ex1_7 Write a program to print the value of EOF.
 
 ### 1.5.3 Line Counting
+#### ex1_8 Write a progrma to count blanks, tabs, and newlines
+#### ex1_9 Write a program to copy its input to output, replacing each string of one ore more blanks by a single blank.
+#### ex1_10 Write a program to copy its input to its output, replacing each tab by /t, each backspace by /b, and each backslash by \\. This makes tabs and backspaces visible in an unambiguous way. 
+
 ### 1.5.4 Word Counting
+#### ex1_11
+#### ex1_12
+
+### 1.6 Arrays
+#### ex1_13
+#### ex1_14 
+
+### 1.7 Functions
+#### ex1_15
+
+### 1.8 Arguments--Call by Value
+### 1.9 Character Arrays
+#### ex1_16
+#### ex1_17
+#### ex1_18
+#### ex1_19
+
+### 1.10 External Variables and Scope
+#### ex1_20
+#### ex1_21
+#### ex1_22
+#### ex1_23
+#### ex1_24
 
 :sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles:
