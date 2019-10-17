@@ -90,6 +90,7 @@ int main()
 <여기서 배운 것>
 - getchar & putchar function 차이점
 - buffer
+
 ### 1.5.1 File Copying
 "The simplest example is a program that copies its input to its output one character at a time"
 
@@ -164,6 +165,8 @@ int main()
 #### ex1_10 Write a program to copy its input to its output, replacing each tab by /t, each backspace by /b, and each backslash by \\. This makes tabs and backspaces visible in an unambiguous way. 
 
 ### 1.5.4 Word Counting
+- 참고: https://blog.naver.com/sdfgh724/221425441903
+
 #### ex1_11
 #### ex1_12
 
