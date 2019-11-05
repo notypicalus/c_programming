@@ -17,7 +17,7 @@ int main(void)
 
 	while((len = ngetline(line, MAXLINE)) > 0)
 	{
-	if(leng > LIMIT)
+	if(len > LIMIT)
 		printf("%s", line);
 	}
 	return 0;
