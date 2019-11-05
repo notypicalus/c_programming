@@ -10,7 +10,7 @@ int main(void)
 	int len;
 	char line[MAXLINE];
 
-	while((leng = mgetline(line, MAXLINE)) > 0)
+	while((len = mgetline(line, MAXLINE)) > 0)
 		if(removetail(line) > 0)
 			printf("%s", line);
 	return (0);
