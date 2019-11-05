@@ -5,7 +5,7 @@
 #define MAXLINE 1000
 #define LIMIT 80
 
-/* We call it ngetline, for new gteline so that it does not conflict
+/* We call it ngetline, for new getline so that it does not conflict
  * with system function getline */
 
 int ngetline(char line[], int lim);
