@@ -17,8 +17,8 @@ int main(void)
 
 	while((len = ngetline(line, MAXLINE)) > 0)
 	{
-	if(len > LIMIT)
-		printf("%s", line);
+		if(len > LIMIT)
+			printf("%s", line);
 	}
 	return 0;
 }
@@ -29,7 +29,7 @@ int ngetline(char s[], int lim)
 
 	for(i = 0; i < lim -1 && (c = getchar()) != EOF && c != '\n'; i++)
 	{
-	s[i] = c;
+		s[i] = c;
 	}
 	if(c == '\n')
 	{
